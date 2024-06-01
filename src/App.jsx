@@ -10,6 +10,7 @@ import CardRecharge from './pages/CardRecharge'
 import TripPriceDetail from './pages/TripPriceDetail'
 import CardBalance from './pages/CardBalance'
 import QRScanner from './pages/QRScanner'
+import PlanTrip from './pages/PlanTrip'
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
 
               <Route path='/tripPrice-detail' element={<TripPriceDetail />} />
               <Route path='/qrscanner' element={<QRScanner />} />
+              <Route path='/plan-trip' element={<PlanTrip />} />
             </Route>
             <Route path='/login' element={<Login />} />
           </Routes>
